@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+}
+
+#usr_inp{
+    font-size: 2rem;
+    margin-right: 25px;
+    border-radius: 5px;
+    border: hsl(0, 0, 30%)
+}
+
+#btn{
+    border: none;
+    background-color: rgb(23, 198, 23);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: white;
+}
+
+#btn:hover{
+    background-color: rgb(18, 169, 18);;
+}
+
+#card{
+    margin: auto;
+    margin-top: 100px;
+    background: linear-gradient(180deg, hsl(210, 100%, 75%), hsl(40, 100%, 75%));
+    width: 500px;
+    display: flex;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+h1, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.758);
+}
+
+.descDisplay{
+    font-style: italic;
+}
+
+.weatherEmoji{
+    margin: 0;
+    font-size: 6rem;
+}
+
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.756);
+}
+
+
+
+
